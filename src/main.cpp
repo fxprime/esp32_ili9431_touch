@@ -30,6 +30,8 @@ void setup(void) {
     SPIFFS.begin();
   }
 
+  Serial.println("OK");
+
   // check if calibration file exists
   if (SPIFFS.exists(CALIBRATION_FILE)) {
     File f = SPIFFS.open(CALIBRATION_FILE, "r");

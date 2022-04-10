@@ -13,10 +13,10 @@
 
 
 ## TOUCH Wiring
- - MISO 19
- - MOSI 23
- - SCK 18
- - CS 16
+  - T_OUT = MISO 19
+  - T_DIN = MOSI 23
+  - SCK 18
+  - CS 16
 
 
 
